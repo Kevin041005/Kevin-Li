@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+   
+    .w3-sidebar {width: 120px;background: #2a313b;}
+   
+    #main {margin-left: 120px}
+    
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+  <img src="https://th.bing.com/th/id/OIP.CiBDwSZR0XKJYBFbAJLzyQAAAA?pid=ImgDet&w=193&h=193&c=7&dpr=2" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-blue">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-blue w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+
+<div class="w3-padding-large" id="main">
+
+  <header class="w3-container w3-padding-32 w3-center w3-grey" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Kevin.</h1>
+    <p>Software Engineering student.</p>
+    <img src="https://th.bing.com/th/id/OIP.CiBDwSZR0XKJYBFbAJLzyQAAAA?pid=ImgDet&w=193&h=193&c=7&dpr=2" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64 w3-grey" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Some text about me. Some text about me.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+
+
+    
+    </div>
+    
+    
+    <h3 class="w3-padding-24 w3-text-light-grey w3-grey">Work Experience</h3>  
+    <img src="data:image/png;base64,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" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:100px">
+    <p><span class="w3-large w3-margin-right"></span> Tellhow Software Campany</p>
+    <br>
+    <br>
+    
+    
+  
+  </div>
+  
+
+  <div class="w3-padding-64 w3-content w3-grey" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+   
+    <div class="w3-row-padding" style="margin:0 -16px;color: #34363c;">
+      <div class="w3-half">
+        <img src="https://th.bing.com/th/id/OIP.uYs-rqY1zFN_4Rzdyt3K7QHaE8?w=250&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="width:100%">
+
+      </div>
+      <div class="w3-half">
+        <img src="https://th.bing.com/th/id/OIP.Gp9gpWKxKVLC7SAn2-WuDAHaJQ?w=130&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" style="width:100%">
+
+      </div>
+
+
+   
+    </div>
+ 
+  </div>
+
+ 
+  <div class="w3-padding-64 w3-content w3-text-grey w3-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> London, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 3659920857</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: yli5328@uwo.ca</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+  
+  </div>
+  
+
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <a class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank"></a>
+  <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank"></a>
+  <a class="fa fa-snapchat w3-hover-opacity" href="https://web.snapchat.com/" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank"></a>
+  <a class="fa fa-twitter w3-hover-opacity"href="https://x.com/?lang=en&mx=2" class="w3-button w3-round w3-theme-d3 w3-border link" target="_blank"></a>
+  <form action="/action_page.php" target="_blank">
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.."style="height: 30px;width: 400px;"><br>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."style="height: 30px;width: 400px;"><br>
+              <label for="country">Country</label>
+              <select id="country" name="country"style="height: 30px;width: 400px;">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select><br>
+              <label for="subject">Email address</label>
+              <textarea id="subject" name="subject" placeholder="Your email" style="height: 30px;width: 400px;"></textarea>
+              <p>
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+ 
+</form>
+</footer>
+</div>
+
+</body>
+</html>
